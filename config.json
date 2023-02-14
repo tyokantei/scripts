@@ -21,6 +21,96 @@
       "switchable": 0,
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
     },
+    "key": "dr_我的哔哩",
+   "name": "我的哔哩(道长)",
+   "type": 1,
+   "api": "http://101.34.67.237/vod?rule=我的哔哩",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "dr_voflix",
+   "name": "voflix(道长)",
+   "type": 1,
+   "api": "http://101.34.67.237/vod?rule=voflix",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "dr_ddys",
+   "name": "ddys(道长)",
+   "type": 1,
+   "api": "http://101.34.67.237/vod?rule=ddys",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 0
+  },
+  {
+   "key": "csp_appysv2_MX影视",
+   "name": "MX影视(萝卜)",
+   "type": 3,
+   "api": "csp_AppYsV2",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "http://mkk.gotka.top/api.php/v1.vod"
+  },
+  {
+   "key": "dr_酷奇MV",
+   "name": "酷奇MV(道长)",
+   "type": 1,
+   "api": "http://101.34.67.237/vod?rule=酷奇MV",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 0
+  },
+  {
+   "key": "dr_快看",
+   "name": "快看(道长)",
+   "type": 1,
+   "api": "http://101.34.67.237/vod?rule=快看",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "dr_胖虎",
+   "name": "胖虎(道长)",
+   "type": 1,
+   "api": "http://101.34.67.237/vod?rule=胖虎",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "dr_奇优影院",
+   "name": "奇优影院(道长)",
+   "type": 1,
+   "api": "http://101.34.67.237/vod?rule=奇优影院",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 0
+  },
+  {
+   "key": "dr_真不卡",
+   "name": "真不卡(道长)",
+   "type": 1,
+   "api": "http://101.34.67.237/vod?rule=真不卡",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "dr_爱看",
+   "name": "爱看(道长)",
+   "type": 1,
+   "api": "http://101.34.67.237/vod?rule=爱看",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 1
+  },
     {
       "key": "哔哩",
       "name": "哔哩",
