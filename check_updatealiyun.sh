@@ -24,6 +24,6 @@ if [ ! -f "$config_file" ]; then
         || { echo "无法下载配置文件，请手动下载并将其保存到 $config_file"; exit 1; }
 fi
 
-# 运行新容器，并使用安全设置
-docker run -d --name aliyundrive-subscribe --restart always -p 8002:8002 -u 1000:1000 -v /etc/aliyundrive-subscribe/conf:/app/conf looby/aliyundrive-subscribe:latest
+# 运行新容器，并通用设置
+docker run -d -p 8002:8002 -v /etc/aliyundrive-subscribe/conf:/app/conf --restart=always --name=aliyundrive-subscribe looby/aliyundrive-subscribe:latest
 
