@@ -14,7 +14,7 @@ docker run -d \
   -e PUID=0 \
   -e PGID=0 \
   -e TZ=Asia/Shanghai \
-  -p 9999:9999 \
+  -p 9999:8888 \
   -p 55555:55555 \
   -v $xiaoya_config/resilio:/config \
   -v $xiaoya_config/resilio/downloads:/downloads \
