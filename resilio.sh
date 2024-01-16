@@ -1,7 +1,7 @@
 if [ ! $2 ]; then
-	xiaoya_config="/etc/xiaoya"
+  xiaoya_config="/usr/share/jd_openwrt_script"
 else
-	xiaoya_config=$2
+  xiaoya_config=$2
 fi
 
 mkdir -p $xiaoya_config/resilio/downloads
@@ -22,7 +22,8 @@ docker run -d \
   --restart=always \
   lscr.io/linuxserver/resilio-sync:latest
 else
-	echo "请在命令后输入 -s /媒体库目录 再重试"
-	exit 1
+  echo "请在命令后输入 -s /媒体库目录 再重试"
+  exit 1
 fi
+
 
